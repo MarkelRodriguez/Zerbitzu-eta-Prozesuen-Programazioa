@@ -1,2 +1,0 @@
-# GitHubExample
-Android Studio proba
