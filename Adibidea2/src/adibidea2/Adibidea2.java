@@ -5,6 +5,7 @@
 package adibidea2;
 
 import java.io.BufferedReader;
+import java.io.IOException;
 import java.io.InputStream;
 import java.io.InputStreamReader;
 
@@ -35,7 +36,7 @@ public class Adibidea2 {
                 System.out.println(linea);
             }
             br.close();
-        } catch (Exception e) {
+        } catch (IOException e) {
             e.printStackTrace();
         }
 // COMPROBACION DE ERROR - 0 bien - 1 mal
