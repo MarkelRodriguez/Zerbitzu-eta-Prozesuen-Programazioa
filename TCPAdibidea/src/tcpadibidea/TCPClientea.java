@@ -33,13 +33,11 @@ public class TCPClientea {
         DataInputStream flujoEntrada = new DataInputStream(Cliente.getInputStream());
         // EL SERVIDOR ME ENVIA UN MENSAJE
 
-        System.out.println("Recibiendo del SERVIDOR: \n\t"+ flujoEntrada.readUTF());
+        System.out.println("Recibiendo del SERVIDOR: \n\t" + flujoEntrada.readUTF());
 // CERRAR STREAMS Y SOCKETS
-flujoEntrada.close();
-            flujoSalida.close();
-            Cliente.close();
-        }// main 
-    } //
-
-
+        flujoEntrada.close();
+        flujoSalida.close();
+        Cliente.close();
+    }// main 
+} //
 
